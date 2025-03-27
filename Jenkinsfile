@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'master'
-    }
+    agent any
 
     environment {
         PYTHON_VERSION = "3.10"
