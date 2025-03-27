@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+       label 'Built-In Node'
+    }
 
     environment {
         PYTHON_VERSION = "3.10"
